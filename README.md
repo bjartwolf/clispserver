@@ -26,6 +26,10 @@ In sbcl
 sbcl --eval '(ql:quickload :alexandria)' --quit
 ```
 
+sbcl --load  /home/bjartwolf/quicklisp/setup.lisp
+sbcl --load  /home/bjartwolf/quicklisp/setup.lisp --eval '(ql:quickload :alexandria)' --quit
+?
+
 IDE:
 - emacs + sly (or slime for old-school feel?)
 - doom emacs https://doomemacs.org/
