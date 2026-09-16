@@ -28,7 +28,9 @@ sbcl --eval '(ql:quickload :alexandria)' --quit
 
 sbcl --load  /home/bjartwolf/quicklisp/setup.lisp
 sbcl --load  /home/bjartwolf/quicklisp/setup.lisp --eval '(ql:quickload :alexandria)' --quit
-?
+❯ sbcl --load /home/bjartwolf/quicklisp/setup.lisp --eval '(ql:add-to-init-file)' --quit
+cat ~/.sbclrc 
+it seems this add to init file is important...
 
 IDE:
 - emacs + sly (or slime for old-school feel?)
