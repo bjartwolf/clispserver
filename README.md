@@ -39,12 +39,8 @@ IDE:
 
 - emacs + sly (or slime for old-school feel?)
 - doom emacs <https://doomemacs.org/>
-For doom, edit ```~/.doom.d/init.el```
-and add
-
-```lisp
-:lang
-(common-lisp +sly)
+For doom, edit `` ~/.config/emacs/bin/init```
+and uncomment common-lisp
 
 ```
 
