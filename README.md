@@ -45,7 +45,11 @@ and uncomment ```common-lisp```, save and run ```doom sync```
 This will include SLY
 
 and then run ```doom sync```
-
+In local emacs
+```
+M-x package install <RET>
+sly quicklisp
+```
 - or neovim + vlime
 Common Lisp libraries (via quicklisp):
 
@@ -62,6 +66,12 @@ Notes:
 - swank binds 127.0.0.1, tunnel with ssh over port 4005
 
 # Running it
+Tunneling 
+```
+❯ ssh -N -L 4005:127.0.0.1:4005 ***user***@***server***...
+```
+
+
 
 ```shell
  sbcl --load server.lisp
