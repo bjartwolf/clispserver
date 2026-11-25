@@ -40,7 +40,7 @@ IDE:
 - emacs + sly (or slime for old-school feel?)
 - doom emacs <https://doomemacs.org/>
 For doom, edit `` ~/.config/emacs/bin/init```
-and uncomment common-lisp
+and uncomment ```common-lisp```, save and run ```doom sync```
 
 
 and then run ```doom sync```
