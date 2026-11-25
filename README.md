@@ -39,8 +39,18 @@ IDE:
 
 - emacs + sly (or slime for old-school feel?)
 - doom emacs <https://doomemacs.org/>
-- or neovim + vlime
+For doom, edit ```~/.doom.d/init.el```
+and add
 
+```lisp
+:lang
+(common-lisp +sly)
+
+```
+
+and then run ```doom sync```
+
+- or neovim + vlime
 Common Lisp libraries (via quicklisp):
 
 - hunchentoot as web framework
