@@ -42,7 +42,6 @@ IDE:
 For doom, edit `` ~/.config/emacs/bin/init```
 and uncomment common-lisp
 
-```
 
 and then run ```doom sync```
 
