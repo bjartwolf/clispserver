@@ -27,19 +27,20 @@ In sbcl
 
 ```
 sbcl --eval '(ql:quickload :alexandria)' --quit
-```
+
 
 sbcl --load  /home/bjartwolf/quicklisp/setup.lisp
 sbcl --load  /home/bjartwolf/quicklisp/setup.lisp --eval '(ql:quickload :alexandria)' --quit
 ❯ sbcl --load /home/bjartwolf/quicklisp/setup.lisp --eval '(ql:add-to-init-file)' --quit
 cat ~/.sbclrc
+```
 it seems this add to init file is important...
 
 IDE:
 
 - emacs + sly (or slime for old-school feel?)
 - doom emacs <https://doomemacs.org/>
-For doom, edit `` ~/.config/emacs/bin/init``` (available from doom startup menu and private configuration)
+For doom, edit ``` ~/.config/emacs/bin/init``` (available from doom startup menu and private configuration)
 and uncomment ```common-lisp```, save and run ```doom sync```
 This will include SLY
 
