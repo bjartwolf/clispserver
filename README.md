@@ -39,9 +39,9 @@ IDE:
 
 - emacs + sly (or slime for old-school feel?)
 - doom emacs <https://doomemacs.org/>
-For doom, edit `` ~/.config/emacs/bin/init```
+For doom, edit `` ~/.config/emacs/bin/init``` (available from doom startup menu and private configuration)
 and uncomment ```common-lisp```, save and run ```doom sync```
-
+This will include SLY
 
 and then run ```doom sync```
 
